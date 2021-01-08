@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/FDC\ light.jpg);
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.baniere {
+    background-color: rgba(216, 52, 180, 0.589);
+    text-align: center;
+    height: 15%;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 1%;
+    text-align: center;
+    text-shadow: 1px 1px 3px blue;
+    font-size: 60px;
+    font-family: "Press Start 2P";
+    color: rgb(24, 202, 202);
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.galerie img {
+    opacity: .8;
+    width: calc(25% - 40px);
+    margin-top: 20px;
+    margin-right: 40px;
+    transition: .5s;
+    border-radius: 5%;
+
+}
+
+.galerie img:hover{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    transition: .5s;
+}

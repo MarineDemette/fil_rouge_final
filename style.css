@@ -1,0 +1,70 @@
+body{
+    background-image: url(./galerie/wallpaper_light.jpg);
+    width: 100%;
+    position: relative;
+    top: -.8em;
+}
+
+h1{
+    font-family:Permanent Marker;
+    font-size: 350%;
+    color: rgb(58, 51, 161);
+    text-shadow: 3px 3px 3px rgb(194, 197, 8);
+    text-align: center;
+    position: relative;
+    margin: 0;
+
+}
+
+#massou{
+    margin-right: 150px;
+
+}
+
+h2{
+    font-family: "Press start 2P";
+    font-size: 150%;
+    text-align: center;
+    color: rgb(209, 230, 20);
+    text-shadow: 2px 2px 5px  black;
+    margin: 0;
+    
+}
+
+#bloc{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.photolien{
+    width: 300px;
+    height: 400px;
+    /* margin-right: 150px; */
+    border-radius: 20px;
+}
+
+.photolien:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+.choix {
+    transition: .5s;
+}
+
+.choix:hover{
+    font-family: "Press Start 2P";
+    color: rgb(58, 51, 161);
+    text-shadow: 3px 3px 3px rgb(194, 197, 8);
+    font-size: 110%;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+#bloc h3{
+    font-family: "Press Start 2P";
+    font-size: 150%;
+    color: rgb(209, 230, 20);
+    text-shadow: 2px 2px 5px  black;
+    text-align: center;
+}

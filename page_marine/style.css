@@ -1,0 +1,246 @@
+body {
+    background-image: url(images/FDC\ light.jpg);
+    background-size: 90%;
+    background-attachment: fixed;
+    margin-top: 7%;
+
+}
+
+/* ! Barre de Navigation */
+nav {
+    background-color: darkmagenta;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-align: center;
+    color: cornsilk;
+}
+
+.navbar {
+    top: 0px;
+    height: 10%;
+
+}
+
+/* ! disposition du Container et de la banière */
+
+#container {
+    background-color: rgba(0, 255, 234, 0.322);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgb(27, 27, 27);
+    border-radius: 5%;
+    text-align: center;
+    margin-bottom: 20%;
+
+
+}
+
+#baniere {
+    background-color: rgba(216, 52, 180, 0.589);
+    text-align: center;
+    height: 160px;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+}
+
+.dropdown-item a {
+    color: cornsilk;
+}
+
+/* ! bouton Dark Mode */
+
+#button {
+    width: 90px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px;
+    background: #2c032f;
+    box-shadow: 2px 2px 8px rgb(71, 3, 71);
+    font: bolder 15px;
+    color: cornsilk;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+
+/* ! Titre  */
+
+h1 {
+    font-size: 70px;
+    font-family: "Press Start 2P";
+    color: rgb(24, 202, 202);
+    text-shadow: 1px 1px 3px blue;
+}
+
+h2 {
+    margin-top: 10px;
+    font-family: "Permanent Marker";
+    color: rgb(221, 45, 177);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+h3 {
+    margin-top: 35px;
+    font-family: "Permanent Marker";
+    color: rgb(102, 12, 175);
+    text-decoration-line: underline;
+
+}
+
+h4 {
+    font-family: "Permanent Marker";
+    color: rgb(149, 8, 83);
+    text-decoration-line: underline;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(34, 10, 98);
+    font-family: Righteous;
+    margin: 0 10px 10px 10px;
+}
+
+/* ! section Moi */
+
+.anchor {
+    position: relative;
+    top: -6em;
+    visibility: hidden;
+}
+
+.moi p {
+    color: rgb(10, 10, 139);
+
+}
+
+.moi strong {
+    color: crimson;
+}
+
+
+
+/* ! section Mes univers */
+
+.mesUnivers p {
+    padding: 0 10px 10px 10px;
+}
+
+
+/* ? section MES UNIVERS #HP */
+
+.hp strong {
+    color: rgb(214, 54, 25);
+    text-decoration-line: underline;
+}
+
+.hp p {
+    padding: 0 10px 10px 10px;
+    
+}
+
+/* ? section MES UNIVERS #OP */
+
+.op strong {
+    color: rgb(9, 134, 40);
+}
+
+/* ? section MES UNIVERS #FT */
+
+.ft strong{
+    color: rgb(240, 26, 79);
+}
+
+/* ! DARK MODE */
+
+.darkMode {
+    background-image: url(./images/FDC\ dark.jpg);
+
+}
+
+.darkMode #container {
+    background-color: rgba(6, 14, 59, 0.582);
+}
+
+.darkMode #baniere {
+    background-color: rgba(116, 8, 167, 0.52);
+}
+
+.darkMode #button {
+    background-color: #e496e0;
+    color: #112F41;
+    box-shadow: 2px 2px 8px #ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* ! Dark Mode Titres */
+
+.darkMode h1 {
+    color: rgb(177, 145, 236);
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+
+.darkMode h2 {
+    color: rgb(159, 131, 224);
+    text-shadow: 1px 1px 3px darkseagreen;
+}
+
+.darkMode h3 {
+    color: deepskyblue;
+}
+
+.darkMode h4 {
+    color: rgb(26, 238, 185);
+}
+
+.darkMode p {
+    color: cornsilk;
+    font-size: 18px;
+    padding: 0 10px 10px 10px;
+}
+
+
+/* ! Dark Mode section MOI */
+
+.darkMode .moi p {
+    color: white;
+    padding: 0 10px 10px 10px;
+}
+
+.darkMode .moi strong {
+    color: yellow;
+    text-decoration-line: underline;
+}
+
+/* ! Dark Mode section MES UNIVERS*/
+
+.darkMode .mesUnivers a {
+    color: tomato;
+}
+
+.darkMode .mesUnivers p {
+    padding: 0 10px 10px 10px;
+}
+
+/* ? Dark Mode section MES UNIVERS #HP */
+
+.darkMode .mesUnivers strong {
+    color: rgb(213, 250, 6);
+    text-decoration-line: underline;
+}
+
+/* ! FOOTER */
+
+footer{
+    margin-top: 10%;
+}
